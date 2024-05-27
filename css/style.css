@@ -2183,6 +2183,10 @@ blockquote {
 ===============================*/
 @media (min-width: 480px) and (max-width: 767px) {
 
+    #banner {
+        background-image: none !important;
+    }
+
     #wrapper {
         margin:0;
         padding:0;
