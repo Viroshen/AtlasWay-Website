@@ -14,34 +14,41 @@
 
 
 body {
-    background:#fff;
+    /* background:#fff; */
+    background:linear-gradient(to right, #ffdd58 , #ff914d);
 }
 
 
 /* Default Link Color */
 
 a, .la-ball-triangle-path {
-    color:#d2b356;
+    color:#fff;
 }
 
 a:hover, #header.nav-solid nav a:hover {
-    color:#d2b356;
+    /* color:#fff; */
+    color:#ffb652;
+}
+
+#email:hover {
+    color: blue;
 }
 
 /* Default Icon Color */
 
 .icon i {
-    color:#d2b356;
+    color:#fff;
 }
 
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #d2b356;
+    background: #fff;
 }
 
 .pricing-block-content:hover {
-    border-color:#d2b356;
+    /* border-color:#fff; */
+    border-color:#ffb652;
 }
 
 
@@ -67,8 +74,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #d2b356;
-    border-color: #d2b356;
+    color: #ffb652;
+    border-color: #fff;
 }    
 
 
@@ -81,15 +88,16 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Background and Text Colors */
 
 .primary-color, .featured .pricing {
-    background-color:#d2b356;
+    /* background-color:#fff; */
+    background-color:#ffb652;
 }
 
 .primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
-    color:#fff;    
+    color:#fff;
 }
 
 .section-heading h2:after {
-    background:#d2b356;
+    background:#fff;
     content:"";
     display:block;
     width:30px;
@@ -123,7 +131,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Banner Background and Text Colors */
 
 #banner {
-    background: url("../images/banner-images/banner-image-1.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner-image-2.png") no-repeat center top;
     background-size:cover;
 }
 
@@ -190,7 +198,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    /* color:#9c9c9c; */
 }
 
 /* Testimonial */
@@ -278,8 +286,8 @@ h6 {
 /* Button Hover Color */
 
 .button:hover,  input[type="submit"]:hover {
-    border-color:#d2b356;
-    color:#d2b356;
+    border-color:#fff;
+    color:#fff;
 }
 
 
@@ -305,8 +313,8 @@ h6 {
 /* Button Hover Color */
 
 #banner .button:hover {
-    color:#d2b356;
-    border-color:#d2b356;
+    color:#fff;
+    border-color:#fff;
 }
 
 
@@ -318,11 +326,11 @@ h6 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size:12px;
     font-weight:normal;
-    color:#999;
+    color:#111;
 }
 
 /* Footer Icon Color */
 
 #landing-footer i {
-    color:#999;
+    color:#fff;
 }
